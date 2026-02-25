@@ -1,10 +1,10 @@
 # ESP32 GPS Interface Firmware (ESP-IDF | NEO-6M)
 
-## 📌 Overview
+##  Overview
 ESP-IDF–based firmware for interfacing an **ESP32** with a **NEO-6M GPS module** using **UART**.  
 The firmware reads and processes **NMEA sentences** within a **FreeRTOS task** and has been validated on physical hardware.
 
-## 🛠 Technical Specifications
+##  Technical Specifications
 - **MCU:** ESP32  
 - **SDK:** ESP-IDF (v4.x / v5.x)  
 - **GPS Module:** u-blox NEO-6M  
@@ -12,16 +12,16 @@ The firmware reads and processes **NMEA sentences** within a **FreeRTOS task** a
 - **Baud Rate:** 9600 bps (default)  
 - **RTOS:** FreeRTOS  
 
-## ⚙️ Functionality
+##  Functionality
 - UART driver initialization using ESP-IDF  
 - Continuous GPS data reception  
 - NMEA sentence handling (GGA, RMC, etc.)  
 - Task-based processing with non-blocking I/O  
 
-## ✅ Hardware Validation
+##  Hardware Validation
 - Tested with **ESP32 + NEO-6M** under real hardware conditions  
 
-## 🚀 Applications
+## Applications
 - GPS-enabled embedded systems  
 - IoT location tracking  
 - ESP-IDF UART/GPS reference design  
